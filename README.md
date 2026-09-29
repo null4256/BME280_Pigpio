@@ -1,5 +1,7 @@
 # BME280_Pigpio
 BME280をpigpiodで動かすためのライブラリです。
+前提
+pigpiodをインストールしてください
 使用方法
 コンストラクタ　BME280(int pi,int i2c_num)
 初期化するために必要です。
